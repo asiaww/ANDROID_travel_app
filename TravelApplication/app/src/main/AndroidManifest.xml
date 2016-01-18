@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jwetesko.travelapplication">
 
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TravelGridActivity"
+            android:label="@string/title_activity_travel_grid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CountryViewActivity"
+            android:label="@string/title_activity_country_view"
+            android:parentActivityName=".TravelGridActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.jwetesko.travelapplication.TravelGridActivity" />
+        </activity>
+
     </application>
 
 </manifest>
