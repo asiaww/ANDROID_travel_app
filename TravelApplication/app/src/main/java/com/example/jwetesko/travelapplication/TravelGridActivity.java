@@ -1,12 +1,19 @@
 package com.example.jwetesko.travelapplication;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.ImageView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,6 +23,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
 
 public class TravelGridActivity extends AppCompatActivity {
 
@@ -23,6 +31,8 @@ public class TravelGridActivity extends AppCompatActivity {
     private ArrayList<String> choosenDestinations = new ArrayList<String>();
     InputStream is = null;
     String oho = "";
+    JSONObject jsonObj;
+    ArrayList<String> photos3 = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,19 +41,6 @@ public class TravelGridActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         this.choosenDestinations = intent.getStringArrayListExtra(CHDEST_KEY);
-
-        System.out.println(this.choosenDestinations);
-
-        final GridView gridview = (GridView) findViewById(R.id.gridview);
-        gridview.setAdapter(new MyAdapter(this,choosenDestinations));
-
-        gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View v,
-                                    int position, long id) {
-                System.out.println(gridview.getAdapter().getItem(position));
-            }
-        });
-
 
 
         /*String hostUrl = "http://api.qtravel.pl/apis?";
@@ -60,9 +57,38 @@ public class TravelGridActivity extends AppCompatActivity {
         System.out.println(oho);
         */
 
-        String textUrl= "http://iconosquare.com/tag/oslo";
-        new DownloadInfo().execute(textUrl);
-        System.out.println(oho);
+        String textUrl = "http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=7.38&miny=42&maxx=7.45&maxy=44&size=medium&mapfilter=false";
+        try {
+            oho = new DownloadInfo().execute(textUrl).get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+        try {
+            jsonObj = new JSONObject(oho);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            JSONArray wow2 = jsonObj.getJSONArray("photos");
+            for (int i = 0; i < wow2.length(); i++) {
+                photos3.add(wow2.getJSONObject(i).getString("photo_file_url"));
+                System.out.println(photos3.get(i));
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        final GridView gridview = (GridView) findViewById(R.id.gridview);
+        gridview.setAdapter(new MyAdapter(this, choosenDestinations, photos3));
+
+        gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+                System.out.println(gridview.getAdapter().getItem(position));
+            }
+        });
 
     }
 
@@ -70,14 +96,12 @@ public class TravelGridActivity extends AppCompatActivity {
         URL url = null;
         try {
             url = new URL(textUrl);
-            System.out.println(url);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
         HttpURLConnection urlConnection = null;
         try {
             urlConnection = (HttpURLConnection) url.openConnection();
-            System.out.println(urlConnection);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -88,14 +112,12 @@ public class TravelGridActivity extends AppCompatActivity {
 
         try {
             urlConnection.connect();
-            System.out.println("oho");
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         try {
             is = urlConnection.getInputStream();
-            System.out.println(is);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -106,14 +128,11 @@ public class TravelGridActivity extends AppCompatActivity {
 
     private String readStream(InputStream is) throws IOException {
         BufferedReader r = new BufferedReader(new InputStreamReader(is));
-        System.out.println(r);
-        System.out.println(is);
         StringBuilder total = new StringBuilder();
         String line;
         while ((line = r.readLine()) != null) {
             total.append(line + "\n");
         }
-        System.out.println(total);
         return total.toString();
     }
 
