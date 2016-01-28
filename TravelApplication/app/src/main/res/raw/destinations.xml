@@ -8,40 +8,40 @@
 </country>
 <country>
     <dest>Singapur</dest>
-    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=102&miny=1.30&maxx=104&maxy=1.40&size=medium&mapfilter=false</url>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=102&miny=1.30&maxx=104&maxy=1.40&size=medium&mapfilter=false</url>
 	<currency>Dolar singapurski</currency>
 	<language>Angielski, Chiński</language>
 	<capital>Singapur</capital>
 </country>
 <country><dest>Malta</dest>
-    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=20&minx=14.36&miny=35.82&maxx=14.54&maxy=36&size=medium&mapfilter=false</url>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=20&minx=14.36&miny=35.82&maxx=14.54&maxy=36&size=medium&mapfilter=false</url>
 	<currency>Euro</currency>
 	<language>Angielski</language>
 	<capital>Valletta</capital>
 </country>
 <country><dest>Bermudy</dest>
-    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-64.95&miny=32.22&maxx=-64.62&maxy=32.42&size=medium&mapfilter=false</url>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-64.95&miny=32.22&maxx=-64.62&maxy=32.42&size=medium&mapfilter=false</url>
 	<currency>Dolar</currency>
 	<language>Angielski</language>
 	<capital>Hamilton</capital>
 </country>
 <country>
     <dest>Malediwy</dest>
-    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=72.8&miny=-0.8&maxx=73.3&maxy=-0.4&size=medium&mapfilter=false</url>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=72.8&miny=-0.8&maxx=73.3&maxy=-0.4&size=medium&mapfilter=false</url>
 	<currency>Rupia malediwska</currency>
 	<language>Malediwski, Angielski</language>
 	<capital>Male</capital>
 </country>
 <country>
     <dest>Bangladesz</dest>
-    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=88.9&miny=22.57&maxx=91&maxy=25.18&size=medium&mapfilter=false</url>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=88.9&miny=22.57&maxx=91&maxy=25.18&size=medium&mapfilter=false</url>
 	<currency>Taka</currency>
 	<language>Bengalski</language>
 	<capital>Dhaka</capital>
 </country>
 <country>
     <dest>Mauritius</dest>
-    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=57&miny=-20.63&maxx=57.9&maxy=-19.73&size=medium&mapfilter=false</url>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=57&miny=-20.63&maxx=57.9&maxy=-19.73&size=medium&mapfilter=false</url>
 	<currency>Rupia Maurytyjska</currency>
 	<language>Angielski</language>
 	<capital>Port Louis</capital>
@@ -53,490 +53,517 @@
 	<language>Angielski</language>
 	<capital>Bridgetown</capital>
 </country>
-<country><dest>Tajwan</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Korea Południowa</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>San Marino</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Portoryko</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Holandia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Indie</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Japonia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Belgia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Sri Lanka</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Izrael</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Filipiny</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Haiti</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Grenada</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Saint Lucia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Gwadelupa</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Wietnam</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Wielka Brytania</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Jamajka</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Niemcy</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Liechtenstein</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Włochy</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Nepal</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Pakistan</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Dominikana</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Szwajcaria</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Seszele</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Luksemburg</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Chiny</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Gambia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Mołdawia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Czechy</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Tajlandia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Dania</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Albania</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Indonezja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Serbia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Kuba</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Słowacja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Francja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Portugalia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Węgry</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Austria</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Słowenia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Syria</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Rumunia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Turcja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Cypr</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Macedonia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Grecja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Hiszpania</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Ukraina</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Chorwacja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Bośnia i Hercegowina</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Kostaryka</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Egipt</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Kambodża</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Katar</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Maroko</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Gruzja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Malezja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Bułgaria</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Tunezja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Etiopia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Irlandia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Meksyk</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Litwa</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Kenia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Senegal</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Czarnogóra</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Ekwador</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Fidżi</dest><url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=176&miny=-19&maxx=178&maxy=-17&size=medium&mapfilter=false</url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Iran</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Tanzania</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Panama</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Kolumbia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Korea Południowa</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=126&miny=35&maxx=130&maxy=38&size=medium&mapfilter=false</url>
+	<currency>Won</currency>
+	<language>Koreański</language>
+	<capital>Seul</capital>
+</country>
+<country><dest>San Marino</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=12.4&miny=43.91&maxx=12.5&maxy=43.96&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Włoski</language>
+	<capital>San Marino</capital>
+</country>
+<country><dest>Portoryko</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-67.6&miny=17.47&maxx=-65.7&maxy=18.56&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Hiszpański, Angielski</language>
+	<capital>San Juan</capital>
+</country>
+<country><dest>Holandia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=3.72&miny=52&maxx=6.60&maxy=53.5&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Niderlandzki</language>
+	<capital>Amsterdam</capital>
+</country>
+<country><dest>Indie</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=69.4&miny=11.9&maxx=79.6&maxy=30.2&size=medium&mapfilter=false</url>
+	<currency>Rupia</currency>
+	<language>Hindi, Angielski</language>
+	<capital>Nowe Dehli</capital>
+</country>
+<country><dest>Japonia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=132&miny=31.05&maxx=147&maxy=44.9&size=medium&mapfilter=false</url>
+	<currency>Jen</currency>
+	<language>Japoński</language>
+	<capital>Tokio</capital>
+</country>
+<country><dest>Belgia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=3.03&miny=50.11&maxx=5.7&maxy=51.2&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Niderlandzki</language>
+	<capital>Bruksela</capital>
+</country>
+<country><dest>Sri Lanka</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=79.2&miny=5.6&maxx=82.4&maxy=10.1&size=medium&mapfilter=false</url>
+	<currency>Rupia</currency>
+	<language>Syngaleski, Angielski</language>
+	<capital>Sri Dźajawardanapura Kotte</capital>
+</country>
+<country><dest>Izrael</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=34.4&miny=31.7&maxx=35.4&maxy=32.5&size=medium&mapfilter=false</url>
+	<currency>Szekel</currency>
+	<language>Hebrajski, Arabski</language>
+	<capital>Jerozolima</capital>
+</country>
+<country><dest>Filipiny</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=117&miny=5.4&maxx=126&maxy=19.5&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Filipiński, Angielski</language>
+	<capital>Manila</capital>
+</country>
+<country><dest>Haiti</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-74&miny=17.7&maxx=72&maxy=20&size=medium&mapfilter=false</url>
+	<currency>Haitański, Francuski</currency>
+	<language>Gourde</language>
+	<capital>Port-au_prince</capital>
+</country>
+<country><dest>Grenada</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-62&miny=11&maxx=-61.5&maxy=12&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski</language>
+	<capital>Saint George’s</capital>
+</country>
+<country><dest>Gwadelupa</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-62&miny=16&maxx=-61&maxy=16.5&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Francuski</language>
+	<capital>Basse-Terre</capital>
+</country>
+<country><dest>Wietnam</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=104.8&miny=18.5&maxx=107.5&maxy=22.2&size=medium&mapfilter=false</url>
+	<currency>Dong</currency>
+	<language>wietnamski</language>
+	<capital>Hanoi</capital>
+</country>
+<country><dest>Wielka Brytania</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-5.1&miny=51.2&maxx=1.8&maxy=54.5&size=medium&mapfilter=false</url>
+	<currency>Funt</currency>
+	<language>Angielski</language>
+	<capital>Londyn</capital>
+</country>
+<country><dest>Jamajka</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-78.5&miny=17.6&maxx=-76&maxy=18.5&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski, Jamajski</language>
+	<capital>Kingston</capital>
+</country>
+<country><dest>Niemcy</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=8&miny=48&maxx=11&maxy=53.5&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Niemiecki</language>
+	<capital>Berlin</capital>
+</country>
+<country><dest>Liechtenstein</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=9.52&miny=47.08&maxx=9.60&maxy=47.1&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Niemiecki</language>
+	<capital>Vaduz</capital>
+</country>
+<country><dest>Włochy</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=9.9&miny=36&maxx=14&maxy=44&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Włoski</language>
+	<capital>Rzym</capital>
+</country>
+<country><dest>Nepal</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=82.5&miny=26.9&maxx=86.3&maxy=28.5&size=medium&mapfilter=false</url>
+	<currency>Rupia</currency>
+	<language>nepalski</language>
+	<capital>Katmandu</capital>
+</country>
+<country><dest>Dominikana</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-71&miny=17&maxx=-68&maxy=20&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Hiszpański</language>
+	<capital>Santo Domingo</capital>
+</country>
+<country><dest>Szwajcaria</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=7.05&miny=46&maxx=9.3&maxy=47&size=medium&mapfilter=false</url>
+	<currency>Frank</currency>
+	<language>Niemiecki, Francuski, Włoski</language>
+	<capital>Berno</capital>
+</country>
+<country><dest>Seszele</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=55.2&miny=-4.8&maxx=55.6&maxy=-4.5&size=medium&mapfilter=false</url>
+	<currency>Rupia</currency>
+	<language>Seszelski, Francuski</language>
+	<capital>Victoria</capital>
+</country>
+<country><dest>Luksemburg</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=5.9&miny=49.5&maxx=6.3&maxy=49.8&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Luksemburski, Niemiecki, Francuski</language>
+	<capital>Luksemburg</capital>
+</country>
+<country><dest>Chiny</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=109&miny=20.3&maxx=122&maxy=43.2&size=medium&mapfilter=false</url>
+	<currency>Yuan</currency>
+	<language>Mandaryński, Chiński</language>
+	<capital>Pekin</capital>
+</country>
+<country><dest>Gambia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-16.8&miny=13.21&maxx=-15.8&maxy=13.58&size=medium&mapfilter=false</url>
+	<currency>Dalasi</currency>
+	<language>Angielski</language>
+	<capital>Bandżul</capital>
+</country>
+<country><dest>Mołdawia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=28&miny=46&maxx=29.2&maxy=438size=medium&mapfilter=false</url>
+	<currency>Lej</currency>
+	<language>Rumuński</language>
+	<capital>Kiszyniów</capital>
+</country>
+<country><dest>Czechy</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=12.70&miny=49.1&maxx=16.15&maxy=50.7&size=medium&mapfilter=false</url>
+	<currency>Korona</currency>
+	<language>Czeski</language>
+	<capital>Praga</capital>
+</country>
+<country><dest>Tajlandia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=99.5&miny=7&maxx=102&maxy=16&size=medium&mapfilter=false</url>
+	<currency>Baht</currency>
+	<language>Tajski</language>
+	<capital>Bangkok</capital>
+</country>
+<country><dest>Dania</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=7.5&miny=54.9&maxx=10.8&maxy=57.8&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Duński</language>
+	<capital>Kopenhaga</capital>
+</country>
+<country><dest>Indonezja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=105&miny=-10.9&maxx=140&maxy=48&size=medium&mapfilter=false</url>
+	<currency>Rupia</currency>
+	<language>Indonezyjski</language>
+	<capital>Dżakarta</capital>
+</country>
+<country><dest>Serbia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=19.7&miny=43.4&maxx=21.4&maxy=45.1&size=medium&mapfilter=false</url>
+	<currency>Dinar</currency>
+	<language>Serbski</language>
+	<capital>Belgrad</capital>
+</country>
+<country><dest>Kuba</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-85.5&miny=20&maxx=-74.3&maxy=23.6&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Hiszpański</language>
+	<capital>Hawana</capital>
+</country>
+<country><dest>Słowacja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=18&miny=48&maxx=20&maxy=49&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Słowacki</language>
+	<capital>Bratysława</capital>
+</country>
+<country><dest>Francja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-4.8&miny=43.8&maxx=5.57&maxy=49.5&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Francuski</language>
+	<capital>Paryż</capital>
+</country>
+<country><dest>Portugalia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-10&miny=36.8&maxx=-8&maxy=41&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Portugalski</language>
+	<capital>Lizbona</capital>
+</country>
+<country><dest>Węgry</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=17.5&miny=45.7&maxx=21&maxy=46.3&size=medium&mapfilter=false</url>
+	<currency>Forint</currency>
+	<language>Węgierski</language>
+	<capital>Budapeszt</capital>
+</country>
+<country><dest>Austria</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=15.7&miny=47.6&maxx=16.8&maxy=48.5&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Niemiecki</language>
+	<capital>Wiedeń</capital>
+</country>
+<country><dest>Słowenia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=13.6&miny=45.7&maxx=15.4&maxy=46.3&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Słoweński</language>
+	<capital>Lublana</capital>
+</country>
+<country><dest>Rumunia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=22.2&miny=44.1&maxx=27&maxy=46.4&size=medium&mapfilter=false</url>
+	<currency>Lej</currency>
+	<language>Rumuński</language>
+	<capital>Bukareszt</capital>
+</country>
+<country><dest>Turcja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=26&miny=35&maxx=35&maxy=42.5&size=medium&mapfilter=false</url>
+	<currency>Lira</currency>
+	<language>Turecki</language>
+	<capital>Ankara</capital>
+</country>
+<country><dest>Cypr</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=31.7&miny=34.5&maxx=34.5&maxy=35.7&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Grecki, Turecki</language>
+	<capital>Nikozja</capital>
+</country>
+<country><dest>Grecja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=20&miny=35&maxx=25.4&maxy=40.8&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Grecki</language>
+	<capital>Ateny</capital>
+</country>
+<country><dest>Hiszpania</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-6.5&miny=36&maxx=4.7&maxy=43&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Hiszpański</language>
+	<capital>Madryt</capital>
+</country>
+<country><dest>Chorwacja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=13.4&miny=43.7&maxx=15.4&maxy=45.4&size=medium&mapfilter=false</url>
+	<currency>Kuna</currency>
+	<language>Chorwacki</language>
+	<capital>Zagrzeb</capital>
+</country>
+<country><dest>Bośnia i Hercegowina</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=16.9&miny=43&maxx=18.8&maxy=44.9&size=medium&mapfilter=false</url>
+	<currency>Marka</currency>
+	<language>Bośniacki, Chorwacki</language>
+	<capital>Sarajewo</capital>
+</country>
+<country><dest>Kostaryka</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-85.9&miny=9.18&maxx=-82.8&maxy=10.6&size=medium&mapfilter=false</url>
+	<currency>Colón</currency>
+	<language>Hiszpański</language>
+	<capital>San José</capital>
+</country>
+<country><dest>Egipt</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=25.4&miny=24.02&maxx=35.4&maxy=32&size=medium&mapfilter=false</url>
+	<currency>Funt</currency>
+	<language>Arabski</language>
+	<capital>Kair</capital>
+</country>
+<country><dest>Kambodża</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=103&miny=11&maxx=105.5&maxy=14&size=medium&mapfilter=false</url>
+	<currency>Riel</currency>
+	<language>Khmerski</language>
+	<capital>Phnom Penh</capital>
+</country>
+<country><dest>Katar</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=50.8&miny=24.5&maxx=51.6&maxy=26&size=medium&mapfilter=false</url>
+	<currency>Rial</currency>
+	<language>Arabski</language>
+	<capital>Doha</capital>
+</country>
+<country><dest>Maroko</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-10.3&miny=30.1&maxx=-4.5&maxy=35&size=medium&mapfilter=false</url>
+	<currency>Dirham</currency>
+	<language>Arabski</language>
+	<capital>Rabat</capital>
+</country>
+<country><dest>Gruzja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=42&miny=41.3&maxx=45.7&maxy=42.6&size=medium&mapfilter=false</url>
+	<currency>Lari</currency>
+	<language>Gruziński</language>
+	<capital>Tbilisi</capital>
+</country>
+<country><dest>Malezja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=110&miny=1.7&maxx=114.5&maxy=4.8&size=medium&mapfilter=false</url>
+	<currency>Ringgit</currency>
+	<language>Malajaski</language>
+	<capital>Kuala Lumpur</capital>
+</country>
+<country><dest>Bułgaria</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=22.9&miny=42.1&maxx=28&maxy=43.9&size=medium&mapfilter=false</url>
+	<currency>Lew</currency>
+	<language>Bułgarski</language>
+	<capital>Sofia</capital>
+</country>
+<country><dest>Tunezja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=8.64&miny=32.6&maxx=11.13&maxy=37.3&size=medium&mapfilter=false</url>
+	<currency>Dinar</currency>
+	<language>Arabski</language>
+	<capital>Tunis</capital>
+</country>
+<country><dest>Etiopia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=35.3&miny=4.5&maxx=43.4&maxy=12.8&size=medium&mapfilter=false</url>
+	<currency>Birr</currency>
+	<language>Amharski</language>
+	<capital>Addis Abeba</capital>
+</country>
+<country><dest>Irlandia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-10&miny=51&maxx=-5.5&maxy=54&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Irlandzki, Angielski</language>
+	<capital>Dublin</capital>
+</country>
+<country><dest>Meksyk</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-106.9&miny=15.8&maxx=-86&maxy=25.4&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Hiszpański</language>
+	<capital>Meksyk</capital>
+</country>
+<country><dest>Litwa</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=23.1&miny=54.3&maxx=25.5&maxy=55.4&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Litewski</language>
+	<capital>Wilno</capital>
+</country>
+<country><dest>Kenia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=35.4&miny=-2.5&maxx=40.3&maxy=33.4&size=medium&mapfilter=false</url>
+	<currency>Szyling</currency>
+	<language>Suahili, Angielski</language>
+	<capital>Nairobi</capital>
+</country>
+<country><dest>Senegal</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-17.6&miny=13.9&maxx=-12.9&maxy=16&size=medium&mapfilter=false</url>
+	<currency>Frank</currency>
+	<language>Francuski</language>
+	<capital>Dakar</capital>
+</country>
+<country><dest>Czarnogóra</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=18&miny=42.5&maxx=19.4&maxy=43&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Czarnogórski</language>
+	<capital>Podgorica</capital>
+</country>
+<country><dest>Ekwador</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-80&miny=-3&maxx=-76&maxy=0&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Hiszpański</language>
+	<capital>Quito</capital>
+</country>
+<country><dest>Fidżi</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=176&miny=-19&maxx=178&maxy=-17&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski, Fidżyjski</language>
+	<capital>Suva</capital>
+</country>
+<country><dest>Tanzania</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=33&miny=-108&maxx=40&maxy=-40&size=medium&mapfilter=false</url>
+	<currency>Szyling</currency>
+	<language>Suahili, Angielski</language>
+	<capital>Dodoma</capital>
+</country>
+<country><dest>Kolumbia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-78&miny=0.5&maxx=-73&maxy=12&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Hiszpański</language>
+	<capital>Bogota</capital>
 </country>
 <country><dest>Łotwa</dest><url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=21&miny=56.4&maxx=27&maxy=57.9&size=medium&mapfilter=false</url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+	<currency>Euro</currency>
+	<language>Łotewski</language>
+	<capital>Ryga</capital>
 </country>
-<country><dest>Stany Zjednoczone</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Stany Zjednoczone</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-130&miny=31&maxx=-72&maxy=48&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski</language>
+	<capital>Waszyngton</capital>
 </country>
-<country><dest>Estonia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Estonia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=20&miny=58&maxx=25&maxy=60&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Estoński</language>
+	<capital>Tallinn</capital>
 </country>
-<country><dest>Zjednoczone Emiraty Arabskie</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Zjednoczone Emiraty Arabskie</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=53.8&miny=23.8&maxx=55.56&maxy=25.8&size=medium&mapfilter=false</url>
+	<currency>Dirham</currency>
+	<language>Arabski</language>
+	<capital>Abu Dhabi</capital>
 </country>
-<country><dest>Wenezuela</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Wenezuela</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-71&miny=6&maxx=-61&maxy=12&size=medium&mapfilter=false</url>
+	<currency>Boliwar</currency>
+	<language>Hiszpański</language>
+	<capital>Caracas</capital>
 </country>
-<country><dest>Peru</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Peru</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-79&miny=-18&maxx=-71&maxy=-8&size=medium&mapfilter=false</url>
+	<currency>Sol</currency>
+	<language>Hiszpański</language>
+	<capital>Lima</capital>
 </country>
-<country><dest>Brazylia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Brazylia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-55&miny=-30&maxx=-37&maxy=-3&size=medium&mapfilter=false</url>
+	<currency>Real</currency>
+	<language>Portugalski</language>
+	<capital>Brasilia</capital>
 </country>
-<country><dest>Bahamy</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Bahamy</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-79&miny=22&maxx=-74&maxy=27&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski</language>
+	<capital>Nassau</capital>
 </country>
-<country><dest>Chile</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Chile</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-72&miny=-35&maxx=-70&maxy=-33&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Hiszpański</language>
+	<capital>Santiago</capital>
 </country>
-<country><dest>Szwecja</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Szwecja</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=13&miny=55&maxx=19&maxy=66&size=medium&mapfilter=false</url>
+	<currency>Korona</currency>
+	<language>Szwedzki</language>
+	<capital>Sztokholm</capital>
 </country>
-<country><dest>Urugwaj</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Urugwaj</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-57.5&miny=-34.5&maxx=-54&maxy=-32&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Hiszpański</language>
+	<capital>Montevideo</capital>
 </country>
-<country><dest>Finlandia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Finlandia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=23.7&miny=59&maxx=28.5&maxy=68&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Fiński</language>
+	<capital>Helsinki</capital>
 </country>
-<country><dest>Sudan</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Nowa Zelandia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=167&miny=-48&maxx=178&maxy=-33.5&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski, Maoryski</language>
+	<capital>Wellington</capital>
 </country>
-<country><dest>Paragwaj</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Norwegia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=3&miny=57.5&maxx=9.7&maxy=64&size=medium&mapfilter=false</url>
+	<currency>Korona</currency>
+	<language>Norweski</language>
+	<capital>Oslo</capital>
 </country>
-<country><dest>Nowa Zelandia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Argentyna</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-70.5&miny=-49.8&maxx=4-57.3&maxy=-33.6&size=medium&mapfilter=false</url>
+	<currency>Peso</currency>
+	<language>Hiszpański</language>
+	<capital>Buenos Aires</capital>
 </country>
-<country><dest>Norwegia</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Argentyna</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
-</country>
-<country><dest>Arabia Saudyjska</dest><url></url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Arabia Saudyjska</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=21&miny=56.4&maxx=27&maxy=57.9&size=medium&mapfilter=false</url>
+	<currency>Rial</currency>
+	<language>Arabski</language>
+	<capital>Rijad</capital>
 </country>
 <country><dest>Rosja</dest><url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=31&miny=53&maxx=43&maxy=58.7&size=medium&mapfilter=false</url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+	<currency>Rubel</currency>
+	<language>Rosyjski</language>
+	<capital>Moskwa</capital>
 </country>
 <country><dest>Kanada</dest><url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-138&miny=50&maxx=-62&maxy=68&size=medium&mapfilter=false</url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+	<currency>Dolar</currency>
+	<language>Angielski, Francuski</language>
+	<capital>Ottawa</capital>
 </country>
 <country>
     <dest>Islandia</dest>
-    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-22&miny=63.6&maxx=-14&maxy=66&size=medium&mapfilter=false</url>
-	<currency></currency>
-	<language></language>
-	<capital></capital>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-22&miny=63.6&maxx=-14&maxy=66&size=medium&mapfilter=false</url>
+	<currency>Korona</currency>
+	<language>Islandzki</language>
+	<capital>Reykjavik</capital>
 </country>
-<country><dest>Australia</dest><url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=110&miny=-30&maxx=160&maxy=-20&size=medium&mapfilter=false</url>
-	<currency></currency>
-	<language><\language>
-	<capital></capital>
+<country><dest>Australia</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=110&miny=-30&maxx=160&maxy=-20&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski</language>
+	<capital>Canberra</capital>
 </country>
