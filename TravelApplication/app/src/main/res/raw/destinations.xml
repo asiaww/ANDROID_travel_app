@@ -1,109 +1,542 @@
 <?xml version="1.0" encoding="utf-8"?>
-<dest>Monako</dest>
-<dest>Hongkong</dest>
-<dest>Singapur</dest>
-<dest>Watykan</dest>
-<dest>Malta</dest>
-<dest>Bermudy</dest>
-<dest>Malediwy</dest>
-<dest>Bangladesz</dest>
-<dest>Mauritius</dest>
-<dest>Barbados</dest>
-<dest>Tajwan</dest>
-<dest>Korea Południowa</dest>
-<dest>San Marino</dest>
-<dest>Portoryko</dest>
-<dest>Holandia</dest>
-<dest>Indie</dest>
-<dest>Japonia</dest>
-<dest>Belgia</dest>
-<dest>Sri Lanka</dest>
-<dest>Izrael</dest>
-<dest>Filipiny</dest>
-<dest>Haiti</dest>
-<dest>Grenada</dest>
-<dest>Saint Lucia</dest>
-<dest>Gwadelupa</dest>
-<dest>Wietnam</dest>
-<dest>Wielka Brytania</dest>
-<dest>Jamajka</dest>
-<dest>Niemcy</dest>
-<dest>Liechtenstein</dest>
-<dest>Włochy</dest>
-<dest>Nepal</dest>
-<dest>Pakistan</dest>
-<dest>Dominikana</dest>
-<dest>Szwajcaria</dest>
-<dest>Seszele</dest>
-<dest>Luksemburg</dest>
-<dest>Chiny</dest>
-<dest>Gambia</dest>
-<dest>Mołdawia</dest>
-<dest>Czechy</dest>
-<dest>Tajlandia</dest>
-<dest>Dania</dest>
-<dest>Albania</dest>
-<dest>Indonezja</dest>
-<dest>Serbia</dest>
-<dest>Kuba</dest>
-<dest>Słowacja</dest>
-<dest>Francja</dest>
-<dest>Portugalia</dest>
-<dest>Węgry</dest>
-<dest>Austria</dest>
-<dest>Słowenia</dest>
-<dest>Syria</dest>
-<dest>Rumunia</dest>
-<dest>Turcja</dest>
-<dest>Cypr</dest>
-<dest>Macedonia</dest>
-<dest>Grecja</dest>
-<dest>Hiszpania</dest>
-<dest>Ukraina</dest>
-<dest>Chorwacja</dest>
-<dest>Bośnia i Hercegowina</dest>
-<dest>Kostaryka</dest>
-<dest>Egipt</dest>
-<dest>Kambodża</dest>
-<dest>Katar</dest>
-<dest>Maroko</dest>
-<dest>Gruzja</dest>
-<dest>Malezja</dest>
-<dest>Bułgaria</dest>
-<dest>Tunezja</dest>
-<dest>Etiopia</dest>
-<dest>Irlandia</dest>
-<dest>Meksyk</dest>
-<dest>Litwa</dest>
-<dest>Kenia</dest>
-<dest>Senegal</dest>
-<dest>Czarnogóra</dest>
-<dest>Ekwador</dest>
-<dest>Fidżi</dest>
-<dest>Iran</dest>
-<dest>Tanzania</dest>
-<dest>Panama</dest>
-<dest>Kolumbia</dest>
-<dest>Łotwa</dest>
-<dest>Stany Zjednoczone</dest>
-<dest>Estonia</dest>
-<dest>Zjednoczone Emiraty Arabskie</dest>
-<dest>Wenezuela</dest>
-<dest>Peru</dest>
-<dest>Brazylia</dest>
-<dest>Bahamy</dest>
-<dest>Chile</dest>
-<dest>Szwecja</dest>
-<dest>Urugwaj</dest>
-<dest>Finlandia</dest>
-<dest>Sudan</dest>
-<dest>Paragwaj</dest>
-<dest>Nowa Zelandia</dest>
-<dest>Norwegia</dest>
-<dest>Argentyna</dest>
-<dest>Arabia Saudyjska</dest>
-<dest>Rosja</dest>
-<dest>Boliwia</dest>
-<dest>Kanada</dest>
-<dest>Islandia</dest>
-<dest>Australia</dest>
+<country>
+    <dest>Monako</dest>
+    <url>"http://www.panoramio.com/map/get_panoramas.phpset=public&from=0&to=10&minx=7.38&miny=42&maxx=7.45&maxy=44&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Francuski</language>
+	<capital>Monako</capital>
+</country>
+<country>
+    <dest>Singapur</dest>
+    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=102&miny=1.30&maxx=104&maxy=1.40&size=medium&mapfilter=false</url>
+	<currency>Dolar singapurski</currency>
+	<language>Angielski, Chiński</language>
+	<capital>Singapur</capital>
+</country>
+<country><dest>Malta</dest>
+    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=20&minx=14.36&miny=35.82&maxx=14.54&maxy=36&size=medium&mapfilter=false</url>
+	<currency>Euro</currency>
+	<language>Angielski</language>
+	<capital>Valletta</capital>
+</country>
+<country><dest>Bermudy</dest>
+    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-64.95&miny=32.22&maxx=-64.62&maxy=32.42&size=medium&mapfilter=false</url>
+	<currency>Dolar</currency>
+	<language>Angielski</language>
+	<capital>Hamilton</capital>
+</country>
+<country>
+    <dest>Malediwy</dest>
+    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=72.8&miny=-0.8&maxx=73.3&maxy=-0.4&size=medium&mapfilter=false</url>
+	<currency>Rupia malediwska</currency>
+	<language>Malediwski, Angielski</language>
+	<capital>Male</capital>
+</country>
+<country>
+    <dest>Bangladesz</dest>
+    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=88.9&miny=22.57&maxx=91&maxy=25.18&size=medium&mapfilter=false</url>
+	<currency>Taka</currency>
+	<language>Bengalski</language>
+	<capital>Dhaka</capital>
+</country>
+<country>
+    <dest>Mauritius</dest>
+    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=57&miny=-20.63&maxx=57.9&maxy=-19.73&size=medium&mapfilter=false</url>
+	<currency>Rupia Maurytyjska</currency>
+	<language>Angielski</language>
+	<capital>Port Louis</capital>
+</country>
+<country>
+    <dest>Barbados</dest>
+    <url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-59.7&miny=13&maxx=-59.4&maxy=13.36&size=medium&mapfilter=false</url>
+	<currency>Dolar Barbadosu</currency>
+	<language>Angielski</language>
+	<capital>Bridgetown</capital>
+</country>
+<country><dest>Tajwan</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Korea Południowa</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>San Marino</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Portoryko</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Holandia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Indie</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Japonia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Belgia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Sri Lanka</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Izrael</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Filipiny</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Haiti</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Grenada</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Saint Lucia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Gwadelupa</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Wietnam</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Wielka Brytania</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Jamajka</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Niemcy</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Liechtenstein</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Włochy</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Nepal</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Pakistan</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Dominikana</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Szwajcaria</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Seszele</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Luksemburg</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Chiny</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Gambia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Mołdawia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Czechy</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Tajlandia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Dania</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Albania</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Indonezja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Serbia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Kuba</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Słowacja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Francja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Portugalia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Węgry</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Austria</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Słowenia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Syria</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Rumunia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Turcja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Cypr</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Macedonia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Grecja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Hiszpania</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Ukraina</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Chorwacja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Bośnia i Hercegowina</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Kostaryka</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Egipt</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Kambodża</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Katar</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Maroko</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Gruzja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Malezja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Bułgaria</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Tunezja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Etiopia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Irlandia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Meksyk</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Litwa</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Kenia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Senegal</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Czarnogóra</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Ekwador</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Fidżi</dest><url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=176&miny=-19&maxx=178&maxy=-17&size=medium&mapfilter=false</url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Iran</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Tanzania</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Panama</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Kolumbia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Łotwa</dest><url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=21&miny=56.4&maxx=27&maxy=57.9&size=medium&mapfilter=false</url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Stany Zjednoczone</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Estonia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Zjednoczone Emiraty Arabskie</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Wenezuela</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Peru</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Brazylia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Bahamy</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Chile</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Szwecja</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Urugwaj</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Finlandia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Sudan</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Paragwaj</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Nowa Zelandia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Norwegia</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Argentyna</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Arabia Saudyjska</dest><url></url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Rosja</dest><url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=31&miny=53&maxx=43&maxy=58.7&size=medium&mapfilter=false</url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country><dest>Kanada</dest><url>http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-138&miny=50&maxx=-62&maxy=68&size=medium&mapfilter=false</url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
+<country>
+    <dest>Islandia</dest>
+    <url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-22&miny=63.6&maxx=-14&maxy=66&size=medium&mapfilter=false</url>
+	<currency></currency>
+	<language></language>
+	<capital></capital>
+</country>
+<country><dest>Australia</dest><url>www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=110&miny=-30&maxx=160&maxy=-20&size=medium&mapfilter=false</url>
+	<currency></currency>
+	<language><\language>
+	<capital></capital>
+</country>
