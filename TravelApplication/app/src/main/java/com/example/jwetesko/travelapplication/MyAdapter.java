@@ -18,21 +18,21 @@ import java.util.ArrayList;
  */
 public class MyAdapter extends BaseAdapter {
     private Context context;
-    private ArrayList<String> choosenDestinations;
+    private ArrayList<Country> choosenCountries;
     private ArrayList<String> photoURLs;
 
-    public MyAdapter(Context context, ArrayList<String> choosenDestinations, ArrayList<String> photoURLs) {
+    public MyAdapter(Context context, ArrayList<Country> choosenCountries, ArrayList<String> photoURLs) {
         this.context = context;
-        this.choosenDestinations = choosenDestinations;
+        this.choosenCountries = choosenCountries;
         this.photoURLs = photoURLs;
     }
 
     public int getCount() {
-        return this.choosenDestinations.size();
+        return this.choosenCountries.size();
     }
 
     public Object getItem(int position) {
-        return this.choosenDestinations.get(position);
+        return this.choosenCountries.get(position).getName();
     }
 
     public long getItemId(int position) {

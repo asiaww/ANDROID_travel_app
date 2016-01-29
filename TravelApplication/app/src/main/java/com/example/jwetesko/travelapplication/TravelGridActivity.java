@@ -1,15 +1,12 @@
 package com.example.jwetesko.travelapplication;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ImageView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -27,12 +24,10 @@ import java.util.concurrent.ExecutionException;
 
 public class TravelGridActivity extends AppCompatActivity {
 
-    public final static String CHDEST_KEY = "choosenDestinations";
-    private ArrayList<String> choosenDestinations = new ArrayList<String>();
+    private ArrayList<Country> choosenCountries = new ArrayList<Country>();
     InputStream is = null;
     String oho = "";
     JSONObject jsonObj;
-    ArrayList<String> photos3 = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +35,10 @@ public class TravelGridActivity extends AppCompatActivity {
         setContentView(R.layout.activity_travel_grid);
 
         Intent intent = getIntent();
-        this.choosenDestinations = intent.getStringArrayListExtra(CHDEST_KEY);
+        Bundle bundle = intent.getExtras();
+
+        this.choosenCountries = (ArrayList<Country>)bundle.getSerializable("CHDEST_KEY");
+        System.out.println(choosenCountries);
 
 
         /*String hostUrl = "http://api.qtravel.pl/apis?";
@@ -57,31 +55,31 @@ public class TravelGridActivity extends AppCompatActivity {
         System.out.println(oho);
         */
 
-        String textUrl = "http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=7.38&miny=42&maxx=7.45&maxy=44&size=medium&mapfilter=false";
-        try {
-            oho = new DownloadInfo().execute(textUrl).get();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-        try {
-            jsonObj = new JSONObject(oho);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        try {
-            JSONArray wow2 = jsonObj.getJSONArray("photos");
-            for (int i = 0; i < wow2.length(); i++) {
-                photos3.add(wow2.getJSONObject(i).getString("photo_file_url"));
-                System.out.println(photos3.get(i));
+        for(Country currentCountry : choosenCountries) {
+            String textUrl = currentCountry.getURL();
+            try {
+                oho = new DownloadInfo().execute(textUrl).get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
+            try {
+                jsonObj = new JSONObject(oho);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            try {
+                JSONArray jsonArray = jsonObj.getJSONArray("photos");
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    currentCountry.addPhoto(jsonArray.getJSONObject(i).getString("photo_file_url"));
+                }
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
         }
-
-        final GridView gridview = (GridView) findViewById(R.id.gridview);
-        gridview.setAdapter(new MyAdapter(this, choosenDestinations, photos3));
+            final GridView gridview = (GridView) findViewById(R.id.gridview);
+            gridview.setAdapter(new MyAdapter(this, choosenCountries, getFirstPhotos(choosenCountries)));
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
@@ -90,6 +88,15 @@ public class TravelGridActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    protected ArrayList<String> getFirstPhotos(ArrayList<Country> countries) {
+        ArrayList<String> firstPhotoURLs = new ArrayList<String>();
+        for (Country currentCountry : countries) {
+            System.out.println(currentCountry.getPhoto(0));
+            firstPhotoURLs.add(currentCountry.getPhoto(0));
+        }
+        return firstPhotoURLs;
     }
 
     protected String rzeczy(String textUrl) throws IOException {
