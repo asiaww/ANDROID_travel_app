@@ -5,8 +5,13 @@
     <uses-sdk
         android:minSdkVersion="9"
         android:targetSdkVersion="19" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +19,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".StartActivity"
+        <activity
+            android:name=".Activities.StartActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +29,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TravelGridActivity"
+            android:name=".Activities.TravelGridActivity"
             android:label="@string/title_activity_travel_grid"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".CountryViewActivity"
+            android:name=".Activities.CountryViewActivity"
             android:label="@string/title_activity_country_view"
-            android:parentActivityName=".TravelGridActivity"
+            android:parentActivityName=".Activities.TravelGridActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.jwetesko.travelapplication.TravelGridActivity" />
+                android:value=".Activities.TravelGridActivity" />
         </activity>
-
+        <activity android:name=".Activities.SplashScreenActivity"></activity>
     </application>
 
 </manifest>

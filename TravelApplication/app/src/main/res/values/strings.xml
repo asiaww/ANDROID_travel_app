@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Travel Application</string>
+    <string name="app_name">Lets go!</string>
     <string name="title_activity_travel_grid">TravelGridActivity</string>
     <string name="title_activity_country_view">CountryViewActivity</string>
     <string name="start_button">Start!</string>
@@ -7,5 +7,7 @@
     <string name="welcomescreen1">Let\'s go!</string>
     <string name="welcomescreen2">Looking for awesome travel ideas?\nLet us help!</string>
     <string name="welcomescreenbutton">START</string>
+    <string name="photos">Zdjęcia</string>
+    <string name="trips">Wycieczki</string>
 
 </resources>

@@ -1,5 +1,6 @@
-package com.example.jwetesko.travelapplication;
+package com.example.jwetesko.travelapplication.Activities;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -7,6 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+
+import com.example.jwetesko.travelapplication.Classes.Country;
+import com.example.jwetesko.travelapplication.Adapters.MyAdapter;
+import com.example.jwetesko.travelapplication.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -16,6 +21,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Serializable;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -24,10 +30,10 @@ import java.util.concurrent.ExecutionException;
 
 public class TravelGridActivity extends AppCompatActivity {
 
-    private ArrayList<Country> choosenCountries = new ArrayList<Country>();
-    InputStream is = null;
-    String oho = "";
+    InputStream inputStream = null;
+    String jsonContent = "";
     JSONObject jsonObj;
+    final protected Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,36 +42,18 @@ public class TravelGridActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
+        ArrayList<Country> choosenCountries = (ArrayList<Country>) bundle.getSerializable("CHDEST_KEY");
 
-        this.choosenCountries = (ArrayList<Country>)bundle.getSerializable("CHDEST_KEY");
-        System.out.println(choosenCountries);
-
-
-        /*String hostUrl = "http://api.qtravel.pl/apis?";
-        String queryParameterName = "&query=";
-        String transportParameterName = "&ftrans=";
-        String transportParameterValue = "samolot";
-        String qapiKeyParameterName = "qapikey=";
-        String qapiKeyParameterValue = "125371768e33eb299b923ed3ca28e71c";
-        String countryParameterName = "&f_country=";
-        String countryParameterValue = "Ekwador";
-        String textUrl = hostUrl + qapiKeyParameterName + qapiKeyParameterValue + queryParameterName + countryParameterValue + countryParameterName + countryParameterValue;
-        //new HttpAsyncTask().execute(textUrl);
-        new DownloadInfo().execute(textUrl);
-        System.out.println(oho);
-        */
-
+        assert choosenCountries != null;
         for(Country currentCountry : choosenCountries) {
             String textUrl = currentCountry.getURL();
             try {
-                oho = new DownloadInfo().execute(textUrl).get();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (ExecutionException e) {
+                jsonContent = new DownloadInfo().execute(textUrl).get();
+            } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
             }
             try {
-                jsonObj = new JSONObject(oho);
+                jsonObj = new JSONObject(jsonContent);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -84,7 +72,11 @@ public class TravelGridActivity extends AppCompatActivity {
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
-                System.out.println(gridview.getAdapter().getItem(position));
+                Intent intent1 = new Intent(context, CountryViewActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("currentCountry",(Serializable) gridview.getAdapter().getItem(position));
+                intent1.putExtras(bundle);
+                startActivity(intent1);
             }
         });
 
@@ -99,7 +91,7 @@ public class TravelGridActivity extends AppCompatActivity {
         return firstPhotoURLs;
     }
 
-    protected String rzeczy(String textUrl) throws IOException {
+    protected String getPhotosFromPanoramio(String textUrl) throws IOException {
         URL url = null;
         try {
             url = new URL(textUrl);
@@ -124,17 +116,17 @@ public class TravelGridActivity extends AppCompatActivity {
         }
 
         try {
-            is = urlConnection.getInputStream();
+            inputStream = urlConnection.getInputStream();
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return readStream(is);
+        return readStream(inputStream);
 
     }
 
-    private String readStream(InputStream is) throws IOException {
-        BufferedReader r = new BufferedReader(new InputStreamReader(is));
+    private String readStream(InputStream inputStream) throws IOException {
+        BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
         StringBuilder total = new StringBuilder();
         String line;
         while ((line = r.readLine()) != null) {
@@ -146,8 +138,8 @@ public class TravelGridActivity extends AppCompatActivity {
     private class DownloadInfo extends AsyncTask<String, Integer, String> {
         protected String doInBackground(String... strings) {
             try {
-                String wow = rzeczy(strings[0]);
-                return wow;
+                String currentJsonContent = getPhotosFromPanoramio(strings[0]);
+                return currentJsonContent;
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -155,7 +147,7 @@ public class TravelGridActivity extends AppCompatActivity {
         }
 
         protected void onPostExecute(String result) {
-            oho = result;
+            jsonContent = result;
         }
 
     }

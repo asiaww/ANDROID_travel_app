@@ -1,6 +1,4 @@
-package com.example.jwetesko.travelapplication;
-
-import android.os.Parcelable;
+package com.example.jwetesko.travelapplication.Classes;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -15,9 +13,6 @@ public class Country implements Serializable {
     private String language;
     private String capital;
     private ArrayList<String> photos = new ArrayList<String>();
-
-
-    public void Country() {}
 
     public void setProperty(String propertyType, String property) {
         switch(propertyType) {
@@ -35,10 +30,7 @@ public class Country implements Serializable {
 
     }
 
-    public void addPhoto(String photoURL) {
-        this.photos.add(photoURL);
-        System.out.println(this.photos);
-    }
+    public void addPhoto(String photoURL) { this.photos.add(photoURL); }
 
     public String getPhoto(int position) {
         return this.photos.get(position);
