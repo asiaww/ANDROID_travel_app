@@ -10,28 +10,16 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
-
-        <!--<android.support.design.widget.AppBarLayout
-            android:id="@+id/app_bar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fitsSystemWindows="true"
-            android:theme="@style/AppTheme.AppBarOverlay"
-            android:background="#364135"
-            >-->
+        android:layout_height="wrap_content" >
 
             <ImageView
                 android:id="@+id/current_country_image"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:contentDescription="@string/image">
             </ImageView>
-
-        <!--/android.support.design.widget.AppBarLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,35 +29,35 @@
 
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:background="#364135"
-                android:textColor="#F9F9F9"
+                android:layout_gravity="start"
+                android:background="@color/colorButtonBackground"
+                android:textColor="@color/colorButtonText"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
                 android:id="@+id/mail_button"
-                android:text="Wyślij maila" />
+                android:text="@string/sendMail" />
 
             <Button
                 android:layout_width="205dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#364135"
-                android:textColor="#F9F9F9"
+                android:background="@color/colorButtonBackground"
+                android:textColor="@color/colorButtonText"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
                 android:id="@+id/search_button"
-                android:text="Szukaj wycieczek"/>
+                android:text="@string/searchTrips"/>
 
             <Button
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#364135"
-                android:textColor="#F9F9F9"
+                android:background="@color/colorButtonBackground"
+                android:textColor="@color/colorButtonText"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
                 android:id="@+id/search_button_google"
-                android:text="Szukaj w google"/>
+                android:text="@string/searchGoogle"/>
 
         </LinearLayout>
 
@@ -77,18 +65,11 @@
                 android:id="@+id/current_country_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_gravity="center"
-                android:layout_marginTop="20px"
+                android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
                 android:textSize="100sp"/>
-
-            <!--<LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/list_properties"
-                android:orientation="vertical">-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -99,14 +80,16 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
-                android:id="@+id/list_properties_image_1" />
+                android:id="@+id/list_properties_image_1"
+                android:contentDescription="@string/image" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:id="@+id/list_properties_text_1" />
             </LinearLayout>
 
@@ -119,14 +102,16 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
-                android:id="@+id/list_properties_image_2" />
+                android:id="@+id/list_properties_image_2"
+                android:contentDescription="@string/image" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:id="@+id/list_properties_text_2" />
             </LinearLayout>
 
@@ -140,14 +125,16 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
-                android:id="@+id/list_properties_image_3" />
+                android:id="@+id/list_properties_image_3"
+                android:contentDescription="@string/image" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:id="@+id/list_properties_text_3" />
 
             </LinearLayout>

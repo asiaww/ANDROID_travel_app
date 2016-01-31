@@ -41,7 +41,7 @@ public class CountryPhotoGridAdapter extends BaseAdapter {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View gridView;
         if (convertView == null) {
-            gridView = inflater.inflate( R.layout.grid_element, null);
+            gridView = inflater.inflate( R.layout.grid_element,null);
 
             ImageView imageView = (ImageView) gridView.findViewById(R.id.grid_image);
             Picasso.with(context).load(photoURLs.get(position)).noFade().into(imageView);

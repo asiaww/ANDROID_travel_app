@@ -3,14 +3,14 @@
     [
         {
             "name": "Malta",
-            "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=20&minx=14.36&miny=35.82&maxx=14.54&maxy=36&size=medium&mapfilter=false",
+            "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=37&to=47&minx=14.36&miny=35.82&maxx=14.54&maxy=36&size=medium&mapfilter=false",
             "currency" : "Euro",
             "language" : "Angielski",
             "capital" : "Valletta"
         },
         {
             "name": "Bermudy",
-            "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-64.95&miny=32.22&maxx=-64.62&maxy=32.42&size=medium&mapfilter=false",
+            "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=-64.95&miny=32.22&maxx=-64.62&maxy=32.42&size=medium&mapfilter=false",
             "currency" : "Dolar",
             "language" : "Angielski",
             "capital" : "Hamilton"
@@ -24,21 +24,14 @@
         },
         {
             "name": "Malediwy",
-            "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=72.8&miny=-0.8&maxx=73.3&maxy=-0.4&size=medium&mapfilter=false",
+            "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=72.8&miny=-0.8&maxx=73.3&maxy=-0.4&size=medium&mapfilter=false",
 	        "currency": "Rupia malediwska",
 	        "language": "Malediwski, Angielski",
 	        "capital": "Male"
         },
-        {
-            "name": "Bangladesz",
-            "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=88.9&miny=22.57&maxx=91&maxy=25.18&size=medium&mapfilter=false",
-	        "currency": "Taka",
-	        "language": "Bengalski",
-	        "capital": "Dhaka"
-        },
 {
     "name": "Mauritius",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=57&miny=-20.63&maxx=57.9&maxy=-19.73&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=12&to=22&minx=57&miny=-20.63&maxx=57.9&maxy=-19.73&size=medium&mapfilter=false",
 	"currency": "Rupia",
 	"language": "Angielski",
 	"capital": "Port Louis"
@@ -50,12 +43,6 @@
 	"language": "Angielski",
 	"capital": "Bridgetown"
 },
-{"name": "Korea Południowa",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=126&miny=35&maxx=130&maxy=38&size=medium&mapfilter=false",
-	"currency": "Won",
-	"language": "Koreański",
-	"capital": "Seul"
-},
 {"name": "San Marino",
     "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=12.4&miny=43.91&maxx=12.5&maxy=43.96&size=medium&mapfilter=false",
 	"currency": "Euro",
@@ -63,13 +50,13 @@
 	"capital": "San Marino"
 },
 {"name": "Portoryko",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-67.6&miny=17.47&maxx=-65.7&maxy=18.56&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=7&to=17&minx=-67.6&miny=17.47&maxx=-65.7&maxy=18.56&size=medium&mapfilter=false",
 	"currency": "Dolar",
 	"language": "Hiszpański, Angielski",
 	"capital": "San Juan"
 },
 {"name": "Holandia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=3.72&miny=52&maxx=6.60&maxy=53.5&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=3&to=13&minx=3.72&miny=52&maxx=6.60&maxy=53.5&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Niderlandzki",
 	"capital": "Amsterdam"
@@ -105,16 +92,10 @@
 	"capital": "Jerozolima"
 },
 {"name": "Filipiny",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=117&miny=5.4&maxx=126&maxy=19.5&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=12&to=22&minx=117&miny=5.4&maxx=126&maxy=19.5&size=medium&mapfilter=false",
 	"currency": "Peso",
 	"language": "Filipiński, Angielski",
 	"capital": "Manila"
-},
-{"name": "Haiti",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=3&to=13&minx=-74&miny=17.7&maxx=72&maxy=20&size=medium&mapfilter=false",
-	"currency": "Haitański, Francuski",
-	"language": "Gourde",
-	"capital": "Port-au_prince"
 },
 {"name": "Grenada",
     "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-62&miny=11&maxx=-61.5&maxy=12&size=medium&mapfilter=false",
@@ -123,7 +104,7 @@
 	"capital": "Saint George’s"
 },
 {"name": "Gwadelupa",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-62&miny=16&maxx=-61&maxy=16.5&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=3&to=13&minx=-62&miny=16&maxx=-61&maxy=16.5&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Francuski",
 	"capital": "Basse-Terre"
@@ -134,23 +115,11 @@
 	"language": "wietnamski",
 	"capital": "Hanoi"
 },
-{"name": "Wielka Brytania",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-5.1&miny=51.2&maxx=1.8&maxy=54.5&size=medium&mapfilter=false",
-	"currency": "Funt",
-	"language": "Angielski",
-	"capital": "Londyn"
-},
 {"name": "Jamajka",
     "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-78.5&miny=17.6&maxx=-76&maxy=18.5&size=medium&mapfilter=false",
 	"currency": "Dolar",
 	"language": "Angielski, Jamajski",
 	"capital": "Kingston"
-},
-{"name": "Niemcy",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=8&miny=48&maxx=11&maxy=53.5&size=medium&mapfilter=false",
-	"currency": "Euro",
-	"language": "Niemiecki",
-	"capital": "Berlin"
 },
 {"name": "Liechtenstein",
     "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=9.52&miny=47.08&maxx=9.60&maxy=47.1&size=medium&mapfilter=false",
@@ -165,7 +134,7 @@
 	"capital": "Rzym"
 },
 {"name": "Nepal",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=82.5&miny=26.9&maxx=86.3&maxy=28.5&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=5&to=15&minx=82.5&miny=26.9&maxx=86.3&maxy=28.5&size=medium&mapfilter=false",
 	"currency": "Rupia",
 	"language": "nepalski",
 	"capital": "Katmandu"
@@ -183,43 +152,37 @@
 	"capital": "Berno"
 },
 {"name": "Seszele",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=55.2&miny=-4.8&maxx=55.6&maxy=-4.5&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=55.2&miny=-4.8&maxx=55.6&maxy=-4.5&size=medium&mapfilter=false",
 	"currency": "Rupia",
 	"language": "Seszelski, Francuski",
 	"capital": "Victoria"
 },
-{"name": "Luksemburg",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=5.9&miny=49.5&maxx=6.3&maxy=49.8&size=medium&mapfilter=false",
+{"name": "Lukseburg",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=3&to=13&minx=5.9&miny=49.5&maxx=6.3&maxy=49.8&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Luksemburski, Niemiecki, Francuski",
 	"capital": "Luksemburg"
 },
 {"name": "Chiny",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=109&miny=20.3&maxx=122&maxy=43.2&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=7&to=17&minx=109&miny=20.3&maxx=122&maxy=43.2&size=medium&mapfilter=false",
 	"currency": "Yuan",
 	"language": "Mandaryński, Chiński",
 	"capital": "Pekin"
 },
 {"name": "Gambia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-16.8&miny=13.21&maxx=-15.8&maxy=13.58&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=7&to=17&minx=-16.8&miny=13.21&maxx=-15.8&maxy=13.58&size=medium&mapfilter=false",
 	"currency": "Dalasi",
 	"language": "Angielski",
 	"capital": "Bandżul"
 },
-{"name": "Mołdawia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=28&miny=46&maxx=29.2&maxy=438size=medium&mapfilter=false",
-	"currency": "Lej",
-	"language": "Rumuński",
-	"capital": "Kiszyniów"
-},
 {"name": "Czechy",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=12.70&miny=49.1&maxx=16.15&maxy=50.7&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=3&to=13&minx=12.70&miny=49.1&maxx=16.15&maxy=50.7&size=medium&mapfilter=false",
 	"currency": "Korona",
 	"language": "Czeski",
 	"capital": "Praga"
 },
 {"name": "Tajlandia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=99.5&miny=7&maxx=102&maxy=16&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=12&to=22&minx=99.5&miny=7&maxx=102&maxy=16&size=medium&mapfilter=false",
 	"currency": "Baht",
 	"language": "Tajski",
 	"capital": "Bangkok"
@@ -231,7 +194,7 @@
 	"capital": "Kopenhaga"
 },
 {"name": "Indonezja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=105&miny=-10.9&maxx=140&maxy=48&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=17&to=27&minx=105&miny=-10.9&maxx=140&maxy=48&size=medium&mapfilter=false",
 	"currency": "Rupia",
 	"language": "Indonezyjski",
 	"capital": "Dżakarta"
@@ -243,7 +206,7 @@
 	"capital": "Belgrad"
 },
 {"name": "Kuba",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-85.5&miny=20&maxx=-74.3&maxy=23.6&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=9&to=19&minx=-85.5&miny=20&maxx=-74.3&maxy=23.6&size=medium&mapfilter=false",
 	"currency": "Peso",
 	"language": "Hiszpański",
 	"capital": "Hawana"
@@ -255,19 +218,19 @@
 	"capital": "Bratysława"
 },
 {"name": "Francja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-4.8&miny=43.8&maxx=5.57&maxy=49.5&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=8&to=18&minx=-4.8&miny=43.8&maxx=5.57&maxy=49.5&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Francuski",
 	"capital": "Paryż"
 },
 {"name": "Portugalia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-10&miny=36.8&maxx=-8&maxy=41&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=16&to=26&minx=-10&miny=36.8&maxx=-8&maxy=41&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Portugalski",
 	"capital": "Lizbona"
 },
 {"name": "Węgry",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=17.5&miny=45.7&maxx=21&maxy=46.3&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=16&to=26&minx=17.5&miny=45.7&maxx=21&maxy=46.3&size=medium&mapfilter=false",
 	"currency": "Forint",
 	"language": "Węgierski",
 	"capital": "Budapeszt"
@@ -291,7 +254,7 @@
 	"capital": "Bukareszt"
 },
 {"name": "Turcja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=26&miny=35&maxx=35&maxy=42.5&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=12&to=22&minx=26&miny=35&maxx=35&maxy=42.5&size=medium&mapfilter=false",
 	"currency": "Lira",
 	"language": "Turecki",
 	"capital": "Ankara"
@@ -309,22 +272,16 @@
 	"capital": "Ateny"
 },
 {"name": "Hiszpania",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-6.5&miny=36&maxx=4.7&maxy=43&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=11&to=21&minx=-6.5&miny=36&maxx=4.7&maxy=43&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Hiszpański",
 	"capital": "Madryt"
 },
 {"name": "Chorwacja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=13.4&miny=43.7&maxx=15.4&maxy=45.4&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=7&to=17&minx=13.4&miny=43.7&maxx=15.4&maxy=45.4&size=medium&mapfilter=false",
 	"currency": "Kuna",
 	"language": "Chorwacki",
 	"capital": "Zagrzeb"
-},
-{"name": "Bośnia i Hercegowina",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=16.9&miny=43&maxx=18.8&maxy=44.9&size=medium&mapfilter=false",
-	"currency": "Marka",
-	"language": "Bośniacki, Chorwacki",
-	"capital": "Sarajewo"
 },
 {"name": "Kostaryka",
     "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=4&to=14&minx=-85.9&miny=9.18&maxx=-82.8&maxy=10.6&size=medium&mapfilter=false",
@@ -333,13 +290,13 @@
 	"capital": "San José"
 },
 {"name": "Egipt",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=25.4&miny=24.02&maxx=35.4&maxy=32&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=25.4&miny=24.02&maxx=35.4&maxy=32&size=medium&mapfilter=false",
 	"currency": "Funt",
 	"language": "Arabski",
 	"capital": "Kair"
 },
 {"name": "Kambodża",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=103&miny=11&maxx=105.5&maxy=14&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=5&to=15&minx=103&miny=11&maxx=105.5&maxy=14&size=medium&mapfilter=false",
 	"currency": "Riel",
 	"language": "Khmerski",
 	"capital": "Phnom Penh"
@@ -351,7 +308,7 @@
 	"capital": "Doha"
 },
 {"name": "Maroko",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-10.3&miny=30.1&maxx=-4.5&maxy=35&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-10.3&miny=30.1&maxx=-4.5&maxy=35&size=medium&mapfilter=false",
 	"currency": "Dirham",
 	"language": "Arabski",
 	"capital": "Rabat"
@@ -363,19 +320,13 @@
 	"capital": "Tbilisi"
 },
 {"name": "Malezja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=110&miny=1.7&maxx=114.5&maxy=4.8&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=12&to=22&minx=110&miny=1.7&maxx=114.5&maxy=4.8&size=medium&mapfilter=false",
 	"currency": "Ringgit",
 	"language": "Malajaski",
 	"capital": "Kuala Lumpur"
 },
-{"name": "Bułgaria",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=22.9&miny=42.1&maxx=28&maxy=43.9&size=medium&mapfilter=false",
-	"currency": "Lew",
-	"language": "Bułgarski",
-	"capital": "Sofia"
-},
 {"name": "Tunezja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=8.64&miny=32.6&maxx=11.13&maxy=37.3&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=8.64&miny=32.6&maxx=11.13&maxy=37.3&size=medium&mapfilter=false",
 	"currency": "Dinar",
 	"language": "Arabski",
 	"capital": "Tunis"
@@ -387,19 +338,19 @@
 	"capital": "Addis Abeba"
 },
 {"name": "Irlandia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-10&miny=51&maxx=-5.5&maxy=54&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=3&to=13&minx=-10&miny=51&maxx=-5.5&maxy=54&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Irlandzki, Angielski",
 	"capital": "Dublin"
 },
 {"name": "Meksyk",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-106.9&miny=15.8&maxx=-86&maxy=25.4&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=3&to=13&minx=-106.9&miny=15.8&maxx=-86&maxy=25.4&size=medium&mapfilter=false",
 	"currency": "Peso",
 	"language": "Hiszpański",
 	"capital": "Meksyk"
 },
 {"name": "Litwa",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=23.1&miny=54.3&maxx=25.5&maxy=55.4&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=5&to=15&minx=23.1&miny=54.3&maxx=25.5&maxy=55.4&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Litewski",
 	"capital": "Wilno"
@@ -409,12 +360,6 @@
 	"currency": "Szyling",
 	"language": "Suahili, Angielski",
 	"capital": "Nairobi"
-},
-{"name": "Senegal",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-17.6&miny=13.9&maxx=-12.9&maxy=16&size=medium&mapfilter=false",
-	"currency": "Frank",
-	"language": "Francuski",
-	"capital": "Dakar"
 },
 {"name": "Czarnogóra",
     "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=18&miny=42.5&maxx=19.4&maxy=43&size=medium&mapfilter=false",
@@ -429,19 +374,13 @@
 	"capital": "Quito"
 },
 {"name": "Fidżi",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=176&miny=-19&maxx=178&maxy=-17&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=176&miny=-19&maxx=178&maxy=-17&size=medium&mapfilter=false",
 	"currency": "Dolar",
 	"language": "Angielski, Fidżyjski",
 	"capital": "Suva"
 },
-{"name": "Tanzania",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=33&miny=-108&maxx=40&maxy=-40&size=medium&mapfilter=false",
-	"currency": "Szyling",
-	"language": "Suahili, Angielski",
-	"capital": "Dodoma"
-},
 {"name": "Kolumbia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-78&miny=0.5&maxx=-73&maxy=12&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=17&to=27&minx=-78&miny=0.5&maxx=-73&maxy=12&size=medium&mapfilter=false",
 	"currency": "Peso",
 	"language": "Hiszpański",
 	"capital": "Bogota"
@@ -452,8 +391,8 @@
 	"language": "Łotewski",
 	"capital": "Ryga"
 },
-{"name": "Stany Zjednoczone",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-130&miny=31&maxx=-72&maxy=48&size=medium&mapfilter=false",
+{"name": "USA",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=33&to=43&minx=-130&miny=31&maxx=-72&maxy=48&size=medium&mapfilter=false",
 	"currency": "Dolar",
 	"language": "Angielski",
 	"capital": "Waszyngton"
@@ -464,14 +403,14 @@
 	"language": "Estoński",
 	"capital": "Tallinn"
 },
-{"name": "Zjednoczone Emiraty Arabskie",
+{"name": "ZEA",
     "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=53.8&miny=23.8&maxx=55.56&maxy=25.8&size=medium&mapfilter=false",
 	"currency": "Dirham",
 	"language": "Arabski",
-	"capital": "Abu Dhabi"
+	"capital": "Ałhga Dhabi"
 },
 {"name": "Wenezuela",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-71&miny=6&maxx=-61&maxy=12&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=10&to=20&minx=-71&miny=6&maxx=-61&maxy=12&size=medium&mapfilter=false",
 	"currency": "Boliwar",
 	"language": "Hiszpański",
 	"capital": "Caracas"
@@ -483,25 +422,25 @@
 	"capital": "Lima"
 },
 {"name": "Brazylia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-55&miny=-30&maxx=-37&maxy=-3&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=5&to=15&minx=-55&miny=-30&maxx=-37&maxy=-3&size=medium&mapfilter=false",
 	"currency": "Real",
 	"language": "Portugalski",
 	"capital": "Brasilia"
 },
 {"name": "Bahamy",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=0&to=10&minx=-79&miny=22&maxx=-74&maxy=27&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=6&to=16&minx=-79&miny=22&maxx=-74&maxy=27&size=medium&mapfilter=false",
 	"currency": "Dolar",
 	"language": "Angielski",
 	"capital": "Nassau"
 },
 {"name": "Chile",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-72&miny=-35&maxx=-70&maxy=-33&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=-72&miny=-35&maxx=-70&maxy=-33&size=medium&mapfilter=false",
 	"currency": "Peso",
 	"language": "Hiszpański",
 	"capital": "Santiago"
 },
 {"name": "Szwecja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=13&miny=55&maxx=19&maxy=66&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=42&to=52&minx=13&miny=55&maxx=19&maxy=66&size=medium&mapfilter=false",
 	"currency": "Korona",
 	"language": "Szwedzki",
 	"capital": "Sztokholm"
@@ -513,56 +452,44 @@
 	"capital": "Montevideo"
 },
 {"name": "Finlandia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=23.7&miny=59&maxx=28.5&maxy=68&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=8&to=18&minx=23.7&miny=59&maxx=28.5&maxy=68&size=medium&mapfilter=false",
 	"currency": "Euro",
 	"language": "Fiński",
 	"capital": "Helsinki"
 },
-{"name": "Nowa Zelandia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=167&miny=-48&maxx=178&maxy=-33.5&size=medium&mapfilter=false",
-	"currency": "Dolar",
-	"language": "Angielski, Maoryski",
-	"capital": "Wellington"
-},
 {"name": "Norwegia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=3&miny=57.5&maxx=9.7&maxy=64&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=4&to=14&minx=3&miny=57.5&maxx=9.7&maxy=64&size=medium&mapfilter=false",
 	"currency": "Korona",
 	"language": "Norweski",
 	"capital": "Oslo"
 },
 {"name": "Argentyna",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-70.5&miny=-49.8&maxx=4-57.3&maxy=-33.6&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=-70.5&miny=-49.8&maxx=4-57.3&maxy=-33.6&size=medium&mapfilter=false",
 	"currency": "Peso",
 	"language": "Hiszpański",
-	"capital": "Buenos Aires"
-},
-{"name": "Arabia Saudyjska",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=4&to=14&minx=56.4&miny=21&maxx=57.9&maxy=27&size=medium&mapfilter=false",
-	"currency": "Rial",
-	"language": "Arabski",
-	"capital": "Rijad"
+	"capital": "łenos Aires"
 },
 {"name": "Rosja",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=31&miny=53&maxx=43&maxy=58.7&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=2&to=12&minx=31&miny=53&maxx=43&maxy=58.7&size=medium&mapfilter=false",
 	"currency": "Rubel",
 	"language": "Rosyjski",
 	"capital": "Moskwa"
 },
 {"name": "Kanada",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=4&to=14&minx=-138&miny=50&maxx=-62&maxy=68&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=8&to=18&minx=-138&miny=50&maxx=-62&maxy=68&size=medium&mapfilter=false",
 	"currency": "Dolar",
 	"language": "Angielski, Francuski",
 	"capital": "Ottawa"
 },
 {
     "name": "Islandia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=-22&miny=63.6&maxx=-14&maxy=66&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=16&to=26&minx=-22&miny=63.6&maxx=-14&maxy=66&size=medium&mapfilter=false",
 	"currency": "Korona",
 	"language": "Islandzki",
 	"capital": "Reykjavik"
 },
 {"name": "Australia",
-    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=1&to=11&minx=110&miny=-30&maxx=160&maxy=-20&size=medium&mapfilter=false",
+    "url": "http://www.panoramio.com/map/get_panoramas.php?set=public&from=13&to=23&minx=110&miny=-30&maxx=160&maxy=-20&size=medium&mapfilter=false",
 	"currency": "Dolar",
 	"language": "Angielski",
 	"capital": "Canberra"

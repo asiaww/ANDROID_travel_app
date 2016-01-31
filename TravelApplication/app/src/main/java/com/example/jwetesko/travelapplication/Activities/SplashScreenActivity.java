@@ -38,7 +38,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             new Handler().postDelayed(new Runnable() {
 
                 @Override
-                public void run() {
+               public void run() {
                     Intent intent = new Intent(context, TravelGridActivity.class);
                     Bundle bundle = new Bundle();
                     bundle.putSerializable("CHDEST_KEY", choosenCountries);
@@ -48,7 +48,7 @@ public class SplashScreenActivity extends AppCompatActivity {
 
                     finish();
                 }
-            }, SPLASH_TIME_OUT);
+           }, SPLASH_TIME_OUT);
         }
 
         private class LoadData extends AsyncTask<String, Integer, String> {
@@ -58,7 +58,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             }
 
             protected String doInBackground(String... strings) {
-                InputStream inputStream = getResources().openRawResource(R.raw.json);
+                //InputStream inputStream = getResources().openRawResource(R.raw.json);
                 loadJSONDatabase();
                 chooseRandomDestinations();
                 return "";

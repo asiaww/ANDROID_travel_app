@@ -9,9 +9,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -31,17 +31,22 @@
         <activity
             android:name=".Activities.TravelGridActivity"
             android:label="@string/title_activity_travel_grid"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Activities.CountryViewActivity"
             android:label="@string/title_activity_country_view"
             android:parentActivityName=".Activities.TravelGridActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Activities.TravelGridActivity" />
         </activity>
-        <activity android:name=".Activities.SplashScreenActivity"></activity>
+        <activity android:name=".Activities.SplashScreenActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>

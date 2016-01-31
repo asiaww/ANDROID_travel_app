@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.example.jwetesko.travelapplication.Classes.Country;
-import com.example.jwetesko.travelapplication.Adapters.MyAdapter;
+import com.example.jwetesko.travelapplication.Adapters.TravelGridAdapter;
 import com.example.jwetesko.travelapplication.R;
 
 import org.json.JSONArray;
@@ -30,9 +30,9 @@ import java.util.concurrent.ExecutionException;
 
 public class TravelGridActivity extends AppCompatActivity {
 
-    InputStream inputStream = null;
-    String jsonContent = "";
-    JSONObject jsonObj;
+    private InputStream inputStream = null;
+    private String jsonContent = "";
+    private JSONObject jsonObj;
     final protected Context context = this;
 
     @Override
@@ -67,7 +67,7 @@ public class TravelGridActivity extends AppCompatActivity {
             }
         }
             final GridView gridview = (GridView) findViewById(R.id.gridview);
-            gridview.setAdapter(new MyAdapter(this, choosenCountries, getFirstPhotos(choosenCountries)));
+            gridview.setAdapter(new TravelGridAdapter(this, choosenCountries, getFirstPhotos(choosenCountries)));
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
@@ -85,7 +85,6 @@ public class TravelGridActivity extends AppCompatActivity {
     protected ArrayList<String> getFirstPhotos(ArrayList<Country> countries) {
         ArrayList<String> firstPhotoURLs = new ArrayList<String>();
         for (Country currentCountry : countries) {
-            System.out.println(currentCountry.getPhoto(0));
             firstPhotoURLs.add(currentCountry.getPhoto(0));
         }
         return firstPhotoURLs;
@@ -95,15 +94,17 @@ public class TravelGridActivity extends AppCompatActivity {
         URL url = null;
         try {
             url = new URL(textUrl);
-        } catch (MalformedURLException e) {
+        } catch (MalformedURLException | NullPointerException e){
             e.printStackTrace();
         }
         HttpURLConnection urlConnection = null;
         try {
+            assert url != null;
             urlConnection = (HttpURLConnection) url.openConnection();
-        } catch (IOException e) {
+        } catch (IOException | NullPointerException e) {
             e.printStackTrace();
         }
+        assert urlConnection != null;
         urlConnection.setReadTimeout(1500);
         urlConnection.setConnectTimeout(1500);
         urlConnection.setRequestMethod("GET");
@@ -130,7 +131,7 @@ public class TravelGridActivity extends AppCompatActivity {
         StringBuilder total = new StringBuilder();
         String line;
         while ((line = r.readLine()) != null) {
-            total.append(line + "\n");
+            total.append(line).append("\n");
         }
         return total.toString();
     }
@@ -138,8 +139,7 @@ public class TravelGridActivity extends AppCompatActivity {
     private class DownloadInfo extends AsyncTask<String, Integer, String> {
         protected String doInBackground(String... strings) {
             try {
-                String currentJsonContent = getPhotosFromPanoramio(strings[0]);
-                return currentJsonContent;
+                return getPhotosFromPanoramio(strings[0]);
             } catch (IOException e) {
                 e.printStackTrace();
             }

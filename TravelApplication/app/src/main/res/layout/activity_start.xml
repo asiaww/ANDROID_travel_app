@@ -18,8 +18,8 @@
         android:text="@string/welcomescreen1"
         android:fontFamily="sans-serif-thin"
         android:textStyle="bold"
-        android:layout_marginTop="500px"
-        android:textSize="150px"/>
+        android:layout_marginTop="400dp"
+        android:textSize="100sp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,18 +29,18 @@
         android:text="@string/welcomescreen2"
         android:fontFamily="sans-serif-light"
         android:textStyle="bold"
-        android:layout_marginTop="780px"
-        android:textSize="45px"/>
+        android:layout_marginTop="580dp"
+        android:textSize="30sp"/>
 
     <Button
         android:id="@+id/start_button"
         android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="1000px"
-        android:background="#364135"
+        android:layout_marginTop="750dp"
+        android:background="@color/colorButtonBackground"
         android:text="@string/start_button"
-        android:textColor="#F9F9F9"
+        android:textColor="@color/colorButtonText"
         android:fontFamily="sans-serif-light"
         android:textStyle="bold"
         />

@@ -16,13 +16,13 @@ import java.util.ArrayList;
 /**
  * Created by jwetesko on 18.01.16.
  */
-public class MyAdapter extends BaseAdapter {
+public class TravelGridAdapter extends BaseAdapter {
     private Context context;
     private ArrayList<Country> choosenCountries;
     private ArrayList<String> photoURLs;
     int counter = 0;
 
-    public MyAdapter(Context context, ArrayList<Country> choosenCountries, ArrayList<String> photoURLs) {
+    public TravelGridAdapter(Context context, ArrayList<Country> choosenCountries, ArrayList<String> photoURLs) {
         this.context = context;
         this.choosenCountries = choosenCountries;
         this.photoURLs = photoURLs;
@@ -44,12 +44,7 @@ public class MyAdapter extends BaseAdapter {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View gridView;
         if (convertView == null) {
-            gridView = inflater.inflate( R.layout.grid_element , null);
-
-            //TextView textView = (TextView) gridView
-            //        .findViewById(R.id.grid_text);
-
-            //textView.setText(this.choosenDestinations.get(position));
+            gridView = inflater.inflate(R.layout.grid_element, null);
 
             ImageView imageView = (ImageView) gridView.findViewById(R.id.grid_image);
             System.out.println(photoURLs.get(position));

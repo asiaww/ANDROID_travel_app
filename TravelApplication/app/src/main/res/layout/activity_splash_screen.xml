@@ -16,28 +16,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Czekaj"
+        android:text="@string/wait"
         android:fontFamily="sans-serif-thin"
         android:textStyle="bold"
-        android:layout_marginTop="500px"
-        android:textSize="150px"/>
+        android:layout_marginTop="400dp"
+        android:textSize="100sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:text="Wybieramy dla Ciebie najlepsze wycieczki!"
+        android:text="@string/choosingTrips"
         android:fontFamily="sans-serif-light"
         android:textStyle="bold"
-        android:layout_marginTop="780px"
-        android:textSize="45px"/>
+        android:layout_marginTop="580dp"
+        android:textSize="25sp"/>
 
     <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:id="@+id/progress_spinner"
-        android:layout_width="50px"
-        android:layout_height="50px"
-        android:layout_marginTop="950px"
+        android:layout_marginTop="700dp"
         android:layout_centerHorizontal="true">
     </ProgressBar>
 
